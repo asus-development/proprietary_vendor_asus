@@ -41,7 +41,7 @@ android_app_import {
 	name: "FocusAppListener",
 	owner: "asus",
 	apk: "proprietary/app/FocusAppListener/FocusAppListener.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -51,7 +51,7 @@ android_app_import {
 	name: "GameBroadcasterService",
 	owner: "asus",
 	apk: "proprietary/app/GameBroadcasterService/GameBroadcasterService.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -61,7 +61,7 @@ android_app_import {
 	name: "HardwareStub",
 	owner: "asus",
 	apk: "proprietary/app/HardwareStub/HardwareStub.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -114,7 +114,7 @@ android_app_import {
 	name: "GameBroadcaster",
 	owner: "asus",
 	apk: "proprietary/priv-app/GameBroadcaster/GameBroadcaster.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -125,7 +125,7 @@ android_app_import {
 	name: "ROGGameCenter",
 	owner: "asus",
 	apk: "proprietary/priv-app/ROGGameCenter/ROGGameCenter.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
