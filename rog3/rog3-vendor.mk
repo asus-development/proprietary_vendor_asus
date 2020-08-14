@@ -85,7 +85,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/rog3/proprietary/priv-app/AsusGallery/lib/arm64/libtensorflow_inference.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/AsusGallery/lib/arm64/libtensorflow_inference.so \
     vendor/asus/rog3/proprietary/priv-app/AsusGallery/lib/arm64/libtensorflowlite_jni.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/AsusGallery/lib/arm64/libtensorflowlite_jni.so \
     vendor/asus/rog3/proprietary/priv-app/AsusGalleryBurst/lib/arm/libgifencoder.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/AsusGalleryBurst/lib/arm/libgifencoder.so \
-    vendor/asus/rog3/proprietary/priv-app/GameBroadcaster/lib/arm64/libJniModule.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/GameBroadcaster/lib/arm64/libJniModule.so
+    vendor/asus/rog3/proprietary/priv-app/GameBroadcaster/lib/arm64/libJniModule.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/GameBroadcaster/lib/arm64/libJniModule.so \
+    vendor/asus/rog3/proprietary/priv-app/ROGAirTrigger/lib/arm64/libpl_droidsonroids_gif.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ROGAirTrigger/lib/arm64/libpl_droidsonroids_gif.so
 
 PRODUCT_PACKAGES += \
     FocusAppListener \
@@ -95,4 +96,5 @@ PRODUCT_PACKAGES += \
     AsusGallery \
     AsusGalleryBurst \
     GameBroadcaster \
-    ROGGameCenter
+    ROGGameCenter \
+    ROGAirTrigger

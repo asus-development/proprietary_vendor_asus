@@ -104,3 +104,14 @@ android_app_import {
 	privileged: true,
 }
 
+android_app_import {
+	name: "ROGAirTrigger",
+	owner: "asus",
+	apk: "proprietary/priv-app/ROGAirTrigger/ROGAirTrigger.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
