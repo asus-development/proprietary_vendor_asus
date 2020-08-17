@@ -96,5 +96,6 @@ PRODUCT_PACKAGES += \
     AsusGallery \
     AsusGalleryBurst \
     GameBroadcaster \
+    ImsAsusPointerListenerProxyService \
     ROGGameCenter \
     ROGAirTrigger
