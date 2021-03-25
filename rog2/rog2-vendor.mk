@@ -265,6 +265,7 @@ PRODUCT_PACKAGES += \
     GameBroadcaster \
     ROGAirTrigger \
     ROGGameCenter \
+    ImsAsusVibrationService \
     com.qualcomm.location \
     DeviceInfo \
     QtiTelephonyService \
